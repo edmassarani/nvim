@@ -16,6 +16,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'christianchiarulli/onedark.vim'
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " FZF
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+  Plug 'junegunn/fzf.vim'
   " Status Line
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
