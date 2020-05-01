@@ -28,6 +28,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/gv.vim'
   " Terminal
   Plug 'voldikss/vim-floaterm'  
+  " Start Screen
+  Plug 'mhinz/vim-startify'
   " Help
   Plug 'liuchengxu/vim-which-key'
   " Better Comments

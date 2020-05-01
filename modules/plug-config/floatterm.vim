@@ -1,5 +1,5 @@
 " remap escape to close terminal window
-tnoremap <Esc> <C-\><C-n>:FloatermKill<CR>
+tnoremap <C-w> <C-\><C-n>:FloatermKill<CR>
 " Ctrl+t either opens a new terminal or one previously opened
 nnoremap <silent><C-t> :FloatermToggle<CR>
 " Hide if terminal is open

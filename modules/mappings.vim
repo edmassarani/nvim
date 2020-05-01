@@ -19,3 +19,5 @@ nnoremap <down>  :resize -2<CR>
 nnoremap <up>    :resize +2<CR>
 nnoremap <left>  :vertical resize -2<CR>
 nnoremap <right> :vertical resize +2<CR>
+" Close buffer with Ctrl+w
+nnoremap <C-w> :bd<CR>
