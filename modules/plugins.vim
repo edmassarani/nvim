@@ -3,6 +3,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'tpope/vim-surround'
   " Better Comments
   Plug 'tpope/vim-commentary'
+  " Have the file system follow you around
+  Plug 'airblade/vim-rooter'
   " Add some color
   Plug 'norcalli/nvim-colorizer.lua'
   Plug 'junegunn/rainbow_parentheses.vim'
@@ -12,7 +14,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'jiangmiao/auto-pairs'
   " Themes
   Plug 'christianchiarulli/onedark.vim'
-  " Plug 'kaicataldo/material.vim'
   " Intellisense
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Status Line
@@ -24,8 +25,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'junegunn/gv.vim'
   " Terminal
   Plug 'voldikss/vim-floaterm'  
+  " Help
+  Plug 'liuchengxu/vim-which-key'
   " Better Comments
   Plug 'jbgutierrez/vim-better-comments'
   " Text Navigation
   Plug 'justinmk/vim-sneak'
+  Plug 'unblevable/quick-scope' 
 call plug#end()

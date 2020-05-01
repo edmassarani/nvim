@@ -7,3 +7,6 @@ source $HOME/.config/nvim/modules/themes.vim
 " plugin configs
 source $HOME/.config/nvim/modules/plug-config/coc.vim
 source $HOME/.config/nvim/modules/plug-config/commentary.vim
+source $HOME/.config/nvim/modules/plug-config/quickscope.vim
+source $HOME/.config/nvim/modules/plug-config/rainbow.vim
+source $HOME/.config/nvim/modules/plug-config/sneak.vim
