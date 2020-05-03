@@ -1,0 +1,26 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "html",
+    "javascript",
+    "json",
+    "markdown",
+    "python",
+    "php",
+    "vim"
+  ],
+  "languageserver": {
+    "intelephense": {
+      "command": "intelephense",
+      "args": [
+        "--stdio"
+      ],
+      "filetypes": [
+        "php"
+      ],
+      "initializationOptions": {
+        "storagePath": "/tmp/intelephense"
+      }
+    }
+  }
+}

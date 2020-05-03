@@ -14,3 +14,4 @@ source $HOME/.config/nvim/modules/plug-config/which-key.vim
 source $HOME/.config/nvim/modules/plug-config/fzf.vim
 source $HOME/.config/nvim/modules/plug-config/floatterm.vim
 source $HOME/.config/nvim/modules/plug-config/startify.vim
+source $HOME/.config/nvim/modules/plug-config/rnvimr.vim
