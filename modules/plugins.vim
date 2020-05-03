@@ -14,7 +14,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Have the file system follow you around
   Plug 'airblade/vim-rooter'
   " Add some color
-  Plug 'norcalli/nvim-colorizer.lua'
   Plug 'junegunn/rainbow_parentheses.vim'
   " Better Syntax Support
   Plug 'sheerun/vim-polyglot'
