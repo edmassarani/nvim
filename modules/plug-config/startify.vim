@@ -32,3 +32,5 @@ let g:startify_bookmarks = [
             \ ]
 
 let g:startify_enable_special = 0
+
+nnoremap <leader>s :Startify<CR>
