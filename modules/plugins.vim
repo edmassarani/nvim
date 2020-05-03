@@ -42,8 +42,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'mhinz/vim-startify'
   " Help
   Plug 'liuchengxu/vim-which-key'
-  " Better Comments
-  Plug 'jbgutierrez/vim-better-comments'
   " Text Navigation
   Plug 'justinmk/vim-sneak'
   Plug 'unblevable/quick-scope' 
