@@ -1,8 +1,8 @@
-" Always source these
+" Basic settings
 source $HOME/.config/nvim/modules/settings.vim
 source $HOME/.config/nvim/modules/plugins.vim
 source $HOME/.config/nvim/modules/mappings.vim
-" load after plugins for the dowloaded theme
+" always load after plugins
 source $HOME/.config/nvim/modules/themes.vim
 
 " plugin configs
