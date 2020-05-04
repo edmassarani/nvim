@@ -35,6 +35,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'junegunn/gv.vim'
+    " Async commands
+    Plug 'tpope/vim-dispatch'
     " Terminal
     Plug 'voldikss/vim-floaterm'
     " Start Screen
