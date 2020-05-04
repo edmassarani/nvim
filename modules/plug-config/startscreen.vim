@@ -27,7 +27,7 @@ let g:startify_session_persistence = 1
 let g:startify_bookmarks = [
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 'b': '~/.bashrc' },
-            \ { 'c': '~/Code' },
+            \ { 'c': '~/code' },
             \ ]
 
 let g:startify_enable_special = 0

@@ -15,5 +15,6 @@ source $HOME/.config/nvim/modules/plug-config/quickscope.vim
 source $HOME/.config/nvim/modules/plug-config/rainbow.vim
 source $HOME/.config/nvim/modules/plug-config/rnvimr.vim
 source $HOME/.config/nvim/modules/plug-config/sneak.vim
-source $HOME/.config/nvim/modules/plug-config/startify.vim
+" naming it startify causes some problems
+source $HOME/.config/nvim/modules/plug-config/startscreen.vim
 source $HOME/.config/nvim/modules/plug-config/which-key.vim
