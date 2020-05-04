@@ -2,9 +2,9 @@
 vnoremap < <gv
 vnoremap > >gv
 " TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
+nnoremap <silent><TAB> :bnext<CR>
 " SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
+nnoremap <silent><S-TAB> :bprevious<CR>
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 " Alternate way to quit
@@ -20,13 +20,13 @@ nnoremap <up>    :resize +2<CR>
 nnoremap <left>  :vertical resize -2<CR>
 nnoremap <right> :vertical resize +2<CR>
 " Close buffer with Ctrl+w
-nnoremap <C-w> :bd<CR>
+nnoremap <silent><C-w> :bd<CR>
 " Move line up and down with alt-{jk}
-nnoremap <A-j> :m .+1<CR>==
-nnoremap <A-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>==gi
-inoremap <A-k> <Esc>:m .-2<CR>==gi
-vnoremap <A-j> :m '>+1<CR>gv=gv
-vnoremap <A-k> :m '<-2<CR>gv=gv
+nnoremap <silent><A-j> :m .+1<CR>==
+nnoremap <silent><A-k> :m .-2<CR>==
+inoremap <silent><A-j> <Esc>:m .+1<CR>==gi
+inoremap <silent><A-k> <Esc>:m .-2<CR>==gi
+vnoremap <silent><A-j> :m '>+1<CR>gv=gv
+vnoremap <silent><A-k> :m '<-2<CR>gv=gv
 " Reopen last closed buffer
-nnoremap <leader><S-t> :e #<CR>
+nnoremap <silent><leader><S-t> :e #<CR>
