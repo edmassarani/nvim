@@ -30,3 +30,7 @@ let g:which_key_map.h = {
     \ 'u' : 'undo hunk',
     \ }
 
+let g:which_key_map.w = {
+    \ 'name' : '+window',
+    \ 'c' : 'close',
+    \ }

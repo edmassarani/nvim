@@ -20,7 +20,7 @@ nnoremap <up>    :resize +2<CR>
 nnoremap <left>  :vertical resize -2<CR>
 nnoremap <right> :vertical resize +2<CR>
 " Close buffer with Ctrl+w
-nnoremap <silent><C-w> :bd<CR>
+nnoremap <silent><leader>wc :bd<CR>
 " Move line up and down with alt-{jk}
 nnoremap <silent><A-j> :m .+1<CR>==
 nnoremap <silent><A-k> :m .-2<CR>==
