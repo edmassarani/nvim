@@ -21,3 +21,10 @@ nnoremap <left>  :vertical resize -2<CR>
 nnoremap <right> :vertical resize +2<CR>
 " Close buffer with Ctrl+w
 nnoremap <C-w> :bd<CR>
+" Move line up and down with alt-{jk}
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
