@@ -15,6 +15,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'airblade/vim-rooter'
     " Add some color
     Plug 'junegunn/rainbow_parentheses.vim'
+    Plug 'lilydjwg/colorizer'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Some default snippets
