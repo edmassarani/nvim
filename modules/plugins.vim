@@ -17,7 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/rainbow_parentheses.vim'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    " Auto pairs for '(' '[' '{' 
+    " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
     " Themes
     Plug 'christianchiarulli/onedark.vim'
@@ -36,14 +36,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-fugitive'
     Plug 'junegunn/gv.vim'
     " Terminal
-    Plug 'voldikss/vim-floaterm'  
+    Plug 'voldikss/vim-floaterm'
     " Start Screen
     Plug 'mhinz/vim-startify'
     " Help
     Plug 'liuchengxu/vim-which-key'
     " Text Navigation
     Plug 'justinmk/vim-sneak'
-    Plug 'unblevable/quick-scope' 
+    Plug 'unblevable/quick-scope'
 call plug#end()
 
 " Automatically install missing plugins on startup
