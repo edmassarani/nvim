@@ -26,6 +26,12 @@
   },
   // typescript config
   "tsserver.npm": "/mnt/c/Program Files/nodejs/npm",
+  // snippets config
+  "snippets.loadFromExtensions": true,
+  "snippets.extends": {
+   "typescript": ["javascript"],
+   "php": ["php-laravel"]
+  },
   // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
