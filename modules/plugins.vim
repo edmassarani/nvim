@@ -46,6 +46,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Text Navigation
     Plug 'justinmk/vim-sneak'
     Plug 'unblevable/quick-scope'
+    Plug 'bkad/CamelCaseMotion'
 call plug#end()
 
 " Automatically install missing plugins on startup
