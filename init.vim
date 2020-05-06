@@ -14,6 +14,7 @@ source $HOME/.config/nvim/modules/plug-config/fugitive.vim
 source $HOME/.config/nvim/modules/plug-config/fzf.vim
 source $HOME/.config/nvim/modules/plug-config/quickscope.vim
 source $HOME/.config/nvim/modules/plug-config/rainbow.vim
+source $HOME/.config/nvim/modules/plug-config/rooter.vim
 source $HOME/.config/nvim/modules/plug-config/rnvimr.vim
 source $HOME/.config/nvim/modules/plug-config/sneak.vim
 " naming it startify causes some problems
